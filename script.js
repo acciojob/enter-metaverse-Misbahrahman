@@ -6,6 +6,7 @@ function change() {
     
     let newEle = document.createElement("h1");
     newEle.innerText = "Entered Metaverse";
+	newEle.id = "status";
 
     let btn = document.getElementById("enterBtn");
     let parent = btn.parentElement;
